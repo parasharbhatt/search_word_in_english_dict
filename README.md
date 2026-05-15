@@ -1,13 +1,16 @@
 # 
 
-Python application using Tkinter and PIL library
+Python GUI application using Tkinter and PIL library
 
-Application: Search the word in given Dictionary.
-             If word is found return its meaning(s).
-             If Word is not found the application returns its closest match based on fuzzy logic.
+Functionality:
+Application let user enter "Search" word in given Dictionary.
+If word is found return its meaning(s).
+If Word is not found the application returns its closest match based on fuzzy logic.
+Application can be ended using windows close button
 
-# adding GUI to the application
 
-# Adding validation for search word in the English dictionary.
+
+
+
 
 
