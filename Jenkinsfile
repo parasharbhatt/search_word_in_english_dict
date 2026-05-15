@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'python3 -m py_compile search_dict.py'
+                C:\PROGRA~1\Git\bin\sh.exe 'python3 -m py_compile search_dict.py'
             }
         }
         stage('Test') {
             steps {
-                sh 'py.test --verbose --junit-xml test-reports/results.xml tests/test_SearchApp.py'
+                C:\PROGRA~1\Git\bin\sh.exe 'py.test --verbose --junit-xml test-reports/results.xml tests/test_SearchApp.py'
             }
             post {
                 always {
@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh 'pyinstaller --onefile search_dict.py'
+                C:\PROGRA~1\Git\bin\sh.exe 'pyinstaller --onefile search_dict.py'
             }
             post {
                 success {
