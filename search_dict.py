@@ -100,7 +100,8 @@ class App(tk.Frame):
 
     def resize(self, event):
         size = (event.width, event.height)
-        resized = self.original.resize(size,Image.ANTIALIAS)
+        #resized = self.original.resize(size,Image.ANTIALIAS)
+        resized = self.original.resize(size,Image.Resampling.LANCZOS)
         self.image = ImageTk.PhotoImage(resized)
         self.display.delete("IMG")
         self.display.create_image(0, 0, image=self.image, anchor='nw', tags="IMG")
