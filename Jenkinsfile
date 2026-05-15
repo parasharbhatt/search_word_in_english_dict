@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                pyinstaller --onefile search_dict.py
+                bat 'pyinstaller --onefile search_dict.py'
             }
             post {
                 success {
