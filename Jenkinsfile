@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'python3 -m py_compile search_dict.py'
+                bat 'python -m py_compile search_dict.py'
             }
         }
         stage('Test') {
