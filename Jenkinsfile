@@ -22,7 +22,7 @@ pipeline {
             }
             post {
                 success {
-                    archiveArtifacts 'dist/search_dict'
+                    archiveArtifacts 'dist/'
                 }
             }
         }
