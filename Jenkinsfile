@@ -3,13 +3,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                set PATH=C:\python3_12_1\python.exe;%PATH%
-                python3 -m py_compile search_dict.py
+                bat 'python3 -m py_compile search_dict.py'
             }
         }
         stage('Test') {
             steps {
-                py.test --verbose --junit-xml test-reports/results.xml tests/test_SearchApp.py
+                bat 'py.test --verbose --junit-xml test-reports/results.xml tests/test_SearchApp.py'
             }
             post {
                 always {
