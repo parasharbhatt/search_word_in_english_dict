@@ -1,3 +1,33 @@
-.vscode/
-archieve/
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+test-reports/
+screenshots/
+coverage.xml
+
+# Build and packaging
+build/
+dist/
+*.spec
+*.egg-info/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Project archives
+archieve/

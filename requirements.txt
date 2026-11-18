@@ -1,2 +1,5 @@
-pillow-11.3.0
-education_1.png
+Pillow>=11.3,<12
+pytest>=8.3,<9
+pytest-cov>=6.0,<7
+pytest-html>=4.1,<5
+pyinstaller>=6.0,<7
