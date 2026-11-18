@@ -5,29 +5,45 @@ __pycache__/
 .venv/
 venv/
 .env
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
 
 # Test and coverage output
 .pytest_cache/
 .coverage
+.coverage.*
 htmlcov/
 test-reports/
 screenshots/
 coverage.xml
+.tox/
+.nox/
 
 # Build and packaging
 build/
 dist/
 *.spec
 *.egg-info/
+*.manifest
+.pyinstaller/
 
 # IDE and editor settings
 .vscode/
 .idea/
 *.code-workspace
+*.suo
+*.user
+*.sln.docstates
 
 # Operating system files
 .DS_Store
 Thumbs.db
+Desktop.ini
+*.lnk
 
 # Project archives
 archieve/
+*.zip
+*.tar
+*.tar.gz
