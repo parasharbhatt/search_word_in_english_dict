@@ -7,6 +7,14 @@
 
 A professional desktop English dictionary application built with Python and Tkinter. It provides fast local lookups, case-insensitive searches, numbered meanings, fuzzy spelling suggestions, and a clean, responsive interface.
 
+## Project Category
+
+`Desktop Application` `Utility Software` `Dictionary` `Search Application`
+
+## Tools
+
+`Python` `Tkinter` `JSON` `pytest` `PyInstaller` `Jenkins`
+
 ## Features
 
 - Search more than 49,000 dictionary entries
